@@ -6,12 +6,24 @@ public class Filmes {
     private String genero;
     private int imageMovie;
 
+    private String synpsis;
+
+    public Filmes() {
+    }
 
     public Filmes(String filme, String ano, String genero, int imageMovie) {
         this.filme = filme;
         this.ano = ano;
         this.genero = genero;
         this.imageMovie = imageMovie;
+    }
+
+    public Filmes(String filme, String ano, String genero, int imageMovie, String synpsis) {
+        this.filme = filme;
+        this.ano = ano;
+        this.genero = genero;
+        this.imageMovie = imageMovie;
+        this.synpsis = synpsis;
     }
 
     public int getImageMovie() {
@@ -45,4 +57,13 @@ public class Filmes {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
+    public String getSynpsis() {
+        return synpsis;
+    }
+
+    public void setSynpsis(String synpsis) {
+        this.synpsis = synpsis;
+    }
+
 }
