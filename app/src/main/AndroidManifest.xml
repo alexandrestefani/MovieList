@@ -12,7 +12,7 @@
         android:theme="@style/Theme.RecyclerView_Java"
         tools:targetApi="31">
         <activity
-            android:name=".Detalhes"
+            android:name=".Activity.Activity.Detalhe"
             android:exported="false"
             android:label="@string/title_activity_detalhes"
             android:theme="@style/Theme.RecyclerView_Java.NoActionBar" />
